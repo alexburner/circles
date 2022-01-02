@@ -19,12 +19,11 @@ npm run tsc       # run tsc --no-emit
 
 - Use latest stable node (`nvm install 16`)
 - Init with [`create-vite`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`npm init vite@latest . -- --template react-ts`)
-- Tighten `package.json`:
-  - Add engines
+- Tighten `package.json`
+  - Add `engines`
   - Use exact versions
   - Run `npx npm-check-updates -u)`
-- Improve DX:
+- Improve DX
   - Increase `tsconfig.json` strictness
-  - Add prettier
-  - Add eslint
-  - Add [`vite-plugin-checker`]](https://github.com/fi3ework/vite-plugin-checker) for tsc & eslint in dev & build
+  - Add `prettier` & `eslint`
+  - Add [`vite-plugin-checker`](https://github.com/fi3ework/vite-plugin-checker) (for `tsc` & `eslint` in dev/build)
